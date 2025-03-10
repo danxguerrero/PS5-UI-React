@@ -5,15 +5,17 @@ import './App.css'
 
 import Navbar from './Navbar';
 import GameTileRow from './GameTileRow';
+import GameInfoContainer from './GameInfoContainer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='h-screen'>
       <Navbar />
       <GameTileRow />
-    </>
+      <GameInfoContainer />
+    </div>
   )
 }
 
