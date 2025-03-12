@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='h-screen'>
+    <div className='h-screen bg-blue-900'>
       <Navbar />
       <GameTileRow />
       <GameInfoContainer />
